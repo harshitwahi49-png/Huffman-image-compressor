@@ -36,7 +36,7 @@ int main() {
     string filename = "image.bin";
     string outputfile = "compressed.bin";
 
-    // Fixed: Changed 'image.bin' to your string variable 'filename'
+    
     ifstream file(filename, ios::binary | ios::ate);
     if (!file) {
         cout << "Error opening " << filename << "\n";
